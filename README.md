@@ -1,25 +1,37 @@
-
 # 🚌 Bus Reservation System (SQL Project)
 
-A simple SQL-based database project that simulates a bus reservation system. Built as a part of my B.Tech DBMS learning.
+This is a simple Bus Reservation System built using SQL. It demonstrates basic database concepts like table creation, relationships, and SQL queries. Created as part of my B.Tech coursework to strengthen SQL skills.
 
-## 📂 Project Structure
-- `schema.sql`: SQL to create tables
-- `sample_data.sql`: Dummy data for buses and bookings
-- `queries.sql`: Useful SQL queries to interact with the database
+## 📁 Project Structure
 
-## 🛠️ Tech Used
-- PostgreSQL or MySQL
-- SQL Joins, Grouping, Views
+- `schema.sql` – Contains the SQL code to create tables
+- `sample_data.sql` – Adds sample buses and bookings
+- `queries.sql` – Contains useful queries like available seats, new bookings, cancellations, etc.
 
-## 🚀 How to Run
-1. Open any SQL client (e.g., pgAdmin, MySQL Workbench)
-2. Run `schema.sql`
-3. Run `sample_data.sql`
-4. Try out queries from `queries.sql`
+## 🛠️ Technologies Used
 
-## 📸 Screenshot
-_Add an ER diagram or query output screenshot here (optional)_
+- SQL (PostgreSQL / MySQL)
+- Relational database concepts
+- Joins, aggregations, subqueries
 
-## 💡 Author
-[Your Name](https://github.com/yourusername)
+## 🚀 How to Use
+
+1. Open your SQL client (like pgAdmin, MySQL Workbench, or DBeaver)
+2. Run the `schema.sql` file to create the database tables
+3. Insert the sample data using `sample_data.sql`
+4. Try running different queries from `queries.sql`
+
+## 💡 Features
+
+- Bus details management
+- Passenger bookings with seat tracking
+- Total & available seat queries
+- Simple data manipulation (Insert, Delete)
+
+
+## 👨‍💻 Author
+
+Made with 💻 by **Vishal Chauhan**  
+📍 B.Tech 3rd Year Student  
+📫 [GitHub Profile](https://github.com/VChauhan24)
+
